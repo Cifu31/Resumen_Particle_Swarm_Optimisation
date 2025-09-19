@@ -51,7 +51,7 @@ Extiende PSO con:
 * **Híbridos con GA/DE/SA/ACO** y operadores evolutivos (selección, *crossover*, mutaciones gaussiana/Cauchy) para inyectar diversidad y mejorar explotación.
 * **PSO paralelo (PPSO)**: multi-CPU/GPU, esquemas *master–slave*, grano fino/grueso y **MapReduce**. La ejecución **asíncrona** suele mejorar el aprovechamiento de hardware cuando la evaluación es costosa.
 
-## Guía rápida (problema → enfoque sugerido)
+## Guía rápida 
 
 * **Búsqueda general con estabilidad**: PSO con **ω decreciente** o **factor de constricción**.
 * **Varios óptimos relevantes**: **niching/multi-swarm**; considerar transformaciones si sabes cuántos óptimos buscas.
